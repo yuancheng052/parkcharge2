@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yc.parkcharge2.fragment.ParkListFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:textSize="20sp">
+            <TextView android:text="收费时间" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+            <TextView  android:id="@+id/startTime" android:layout_width="100dp"
+                android:layout_height="wrap_content" android:clickable="true"/>
+            <TextView  android:id="@+id/endTime" android:layout_width="100dp"
+                android:layout_height="wrap_content" android:clickable="true"/>
+            <Button android:id="@+id/btQuery"    android:text="查询"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#DFDDDE"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="收费员" android:layout_width="150dp"  android:layout_height="wrap_content" />
+            <TextView android:text="费用" android:layout_width="100dp"  android:layout_height="wrap_content" />
+            <TextView android:text="次数" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView android:id="@+id/listviewChargesState"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

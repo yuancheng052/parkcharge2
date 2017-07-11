@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@mipmap/tab_maopao"
+        id="@+id/park"
+        title="停车" />
+    <tab
+        icon="@mipmap/tab_task"
+        id="@+id/charge"
+        title="收费" />
+    <tab
+        icon="@mipmap/tab_my"
+        id="@+id/my"
+        title="我的" />
+</tabs>

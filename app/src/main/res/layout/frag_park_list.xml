@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yc.parkcharge2.fragment.ParkListFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:textSize="20sp">
+            <TextView android:text="车牌号" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+
+            <EditText  android:id="@+id/carNo" android:layout_width="200dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="点击行进行收费" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#DFDDDE"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="车牌号" android:layout_width="150dp"  android:layout_height="wrap_content" />
+            <TextView android:text="停车时间" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView android:id="@+id/listviewCars"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

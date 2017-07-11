@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yc.parkcharge2.fragment.StrateListFragment_">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button android:id="@+id/addStrate"    android:text="新增"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="收费标准，点击行进入明细页面" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="时间段" android:layout_width="200dp"  android:layout_height="wrap_content" />
+            <TextView android:text="单价（元/小时）" android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView android:id="@+id/listviewStrates" android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yc.parkcharge2.fragment.StrateFragment_">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView android:text="旧密码" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText  android:id="@+id/oldPwd" android:layout_width="200dp"
+                android:layout_height="wrap_content" android:inputType="textPassword"/>
+            <TextView android:text="新密码" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <EditText  android:id="@+id/newPwd" android:layout_width="200dp"
+                android:layout_height="wrap_content" android:inputType="textPassword"/>
+            <TextView android:text="新密码确认" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText  android:id="@+id/newPwd2" android:layout_width="200dp"
+                android:layout_height="wrap_content" android:inputType="textPassword"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button android:id="@+id/save"    android:text="保存"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btReturn"    android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

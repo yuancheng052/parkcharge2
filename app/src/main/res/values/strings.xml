@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">停车收费</string>
+    <string name="action_settings">设置</string>
+    <string name="action_refrush">刷新</string>
+
+
+    <string name="delete">删除</string>
+    <string name="row_even">#DFDDDE</string>
+    <string name="row_odd">#FFFFFF</string>
+    <string name="row_red">#FF0000</string>
+    <string name="server_url">http://47.93.96.153:8080/parkcharge/</string>
+    <string name="version_name">v2.1.2</string>
+    <string name="version_no">10</string>
+    <string name="app_code">ParkCharge</string>
+    <string name="app_name_all">停车收费v2.1.2</string>
+</resources>
